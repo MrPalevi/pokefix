@@ -1,0 +1,23 @@
+@import './base.css';
+.btn {
+    @apply rounded-full;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    background: with;
+    position: center;
+}
+
+.text {
+    position: center;
+    margin-left: 20;
+}
+
+.text-lg {
+    font-weight: bold;
+}
+
+:root,
+[data-theme] {
+    background-color: hsla(224, 28%, 92%, 1);
+}
