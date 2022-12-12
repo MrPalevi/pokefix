@@ -26,6 +26,48 @@ const router = createRouter({
             name: 'App',
             component: () =>
                 import ('/src/App.vue')
+        },
+        {
+            path: '/Stat',
+            name: 'Stat',
+            component: () =>
+                import ('../views/Stat.vue')
+        },
+        {
+            path: '/Moves',
+            name: 'Moves',
+            component: () =>
+                import ('../views/Moves.vue')
+        },
+        {
+            path: '/History',
+            name: 'History',
+            component: () =>
+                import ('../views/History.vue')
+        },
+        {
+            path: '/ListPokemon',
+            name: 'ListPokemon',
+            component: () =>
+                import ('../components/icons/ListPokemon.vue')
+        },
+        {
+            path: '/TangkapPoke',
+            name: 'TangkapPoke',
+            component: () =>
+                import ('../views/TangkapPoke.vue')
+        },
+        {
+            path: '/LoadingTrow',
+            name: 'LoadingTrow',
+            component: () =>
+                import ('../views/LoadingTrow.vue')
+        },
+        {
+            path: '/TEST',
+            name: 'TEST',
+            component: () =>
+                import ('../views/TEST.vue')
         }
     ]
 })

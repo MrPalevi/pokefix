@@ -24,7 +24,7 @@ import { RouterView } from 'vue-router';
                     <img src="../assets/poke-shadow.png" alt="pokeball">
                 </div>
                 <p class="font-bold text-center my-5">
-                    you don't have a pokemon yet</p>
+                    you don't have a history pokemon yet</p>
                 <div class="flex items-center justify-center">
                     <Router-Link to="/">
                         <div

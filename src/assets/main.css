@@ -21,3 +21,40 @@
 [data-theme] {
     background-color: hsla(224, 28%, 92%, 1);
 }
+
+.grid {
+    justify-content: space-evenly;
+    padding-left: 25px;
+}
+
+.card {
+    place-items: center, center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.ant-modal {
+    font-feature-settings: "tnum", "tnum";
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, .85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    margin: 0 auto;
+    max-width: calc(100vw - 32px);
+    padding: 10;
+    pointer-events: none;
+    position: relative;
+    width: auto;
+}
+
+.ant-modal-content {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 0;
+    border-radius: 2px;
+    pointer-events: auto;
+    position: relative;
+    border-radius: 25px!important;
+}

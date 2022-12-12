@@ -32,22 +32,42 @@ import { RouterView } from 'vue-router';
                         </div>
                     </div>
                     <div class="flex items-center justify-center mt-6 lg:mt-4">
-                        <Router-Link to="/TangkapPoke">
-                        <div class="card-catch rounded-full bg-white px-5 py-2 hover:bg-yellow-400 flex items-center justify-between">
-                            <img src="../assets/pokecatch.png" alt="logo-pokemon"
-                                class="w-8 h-auto mr-2 cursor-pointer animate-bounce">
-                            <p class="font-semi">
-                                Catch Bulbasaur
-                            </p>
+                       
+
+                        <label for="my-modal-6" class="card">
+                            <div
+                                class="card-catch rounded-full bg-white px-5 py-2 hover:bg-yellow-400 flex items-center justify-between">
+                                <img src="../assets/pokecatch.png" alt="logo-pokemon"
+                                    class="w-8 h-auto mr-2 cursor-pointer animate-bounce">
+                                <p class="font-semi">
+                                    Catch Bulbasaur
+                                </p>
+                            </div>
+                        </label>
+                        <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+                        <div class="modal modal-bottom sm:modal-middle">
+                            
+                                <div class="card rounded-3xl -pt-5 px-28 py-1 bg-white">
+                                <figure class="">
+                                    <img
+                                    src="../assets/pokecatch.png" alt="logo-pokemon-throw" class="animate-spin" />
+                                </figure>
+                                <p class="card-body items-center text-center font-semibold">Throwing Pokeball...</p>
+                                <div class="modal-action">
+                                    <Router-Link to="/TangkapPoke" class="my-model-6 card -right-24 bottom-5 ">Throw
+                                    </Router-Link>
+                                </div>
+                                </div>
+                            
                         </div>
-                    </Router-Link>
                     </div>
                 </div>
                 <div class="card w-full bg-[#fff] lg:w-9/12 px-6 py-3">
                     <div class="mb-8">
                         <div class="home-switch px-1 py-2 flex justify-around items-center">
                             <Router-Link to="/DetailView">
-                                <div class="home-switch-active rounded-3xl cursor-pointer hover:bg-yellow-400 py-1 px-5">
+                                <div
+                                    class="home-switch-active rounded-3xl cursor-pointer hover:bg-yellow-400 py-1 px-5">
                                     About
                                 </div>
                             </Router-Link>
@@ -57,10 +77,10 @@ import { RouterView } from 'vue-router';
                                 </div>
                             </Router-Link>
                             <Router-Link to="/Moves">
-                            <div class="home-switch rounded-3xl hover:bg-yellow-400 cursor-pointer py-1 px-5">
-                                Moves
-                            </div>
-                        </Router-Link>
+                                <div class="home-switch rounded-3xl hover:bg-yellow-400 cursor-pointer py-1 px-5">
+                                    Moves
+                                </div>
+                            </Router-Link>
                         </div>
                         <div class="w-full lg:px-7">
                             <div class="grid grid-rows-1 grid-cols-3 gap-3 mb-5 lg:mb-3">
