@@ -1,5 +1,6 @@
 <script setup>
 import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
@@ -8,12 +9,11 @@ import { RouterView } from 'vue-router'
       <div>
         <Router-Link to="/">
           <img src="./assets/pokemon-logo.png" alt="logo-pokemon"
-            class="w-32 lg:w-36 h-auto -mt-4 cursor-pointer"></Router-Link>
+            class="w-32 lg:w-36 h-auto ml-10 -mt-4 cursor-pointer"></Router-Link>
       </div>
 
       <Router-Link to="/CatchView">
-        <div
-          class="card-catch rounded-full bg-white px-5 py-2 hover:bg-yellow-400 flex items-center justfy-between cursor-pointer">
+        <div class="card-catch rounded-full bg-white px-5 py-2 hover:bg-yellow-400 flex items-center justfy-between cursor-pointer">
           <p class="font-semi">0 Catch</p>
           <img src="./assets/pokecatch.png" alt="logo-pokemon" class="w-5 h-auto ml-3 cursor-pointer ">
         </div>

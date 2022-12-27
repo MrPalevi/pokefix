@@ -1,5 +1,6 @@
 <script setup>
 import { RouterView} from 'vue-router';
+
 </script>
 
 
@@ -33,7 +34,7 @@ import { RouterView} from 'vue-router';
                                                 </div>
                                             </div>
                                             <div class="flex items-center hover justify-center mt-5">
-                                                <Router-Link to="/DetailView">
+                                                <Router-Link to="/">
                                                 <button class="mr-2 rounded-2xl border-yellow-400 border-2 h-10 w-20 css-9uc4ss mb-10 font-bold">Release</button>
                                             </Router-Link>
                                                 <button class="css-154qye3 border-2 h-10 w-20  border-yellow-400 rounded-2xl mb-10 bg-yellow-400 hover:bg-white font-bold">Catch</button>

@@ -10,12 +10,6 @@ const router = createRouter({
             component: HomeView
         },
         {
-            path: '/DetailView',
-            name: 'DetailView',
-            component: () =>
-                import ('../views/DetailView.vue')
-        },
-        {
             path: '/CatchView',
             name: 'CatchVew',
             component: () =>
@@ -28,28 +22,10 @@ const router = createRouter({
                 import ('/src/App.vue')
         },
         {
-            path: '/Stat',
-            name: 'Stat',
-            component: () =>
-                import ('../views/Stat.vue')
-        },
-        {
-            path: '/Moves',
-            name: 'Moves',
-            component: () =>
-                import ('../views/Moves.vue')
-        },
-        {
             path: '/History',
             name: 'History',
             component: () =>
                 import ('../views/History.vue')
-        },
-        {
-            path: '/ListPokemon',
-            name: 'ListPokemon',
-            component: () =>
-                import ('../components/icons/ListPokemon.vue')
         },
         {
             path: '/TangkapPoke',
@@ -64,7 +40,7 @@ const router = createRouter({
                 import ('../views/LoadingTrow.vue')
         },
         {
-            path: '/TEST',
+            path: '/TEST/:id',
             name: 'TEST',
             component: () =>
                 import ('../views/TEST.vue')
